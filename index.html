@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pricing component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container--intro">
+        <img src="images/pattern-circles.svg" alt="" />
+        <h1>Simple, traffic-based pricing</h1>
+        <p>Sign-up for our 30-day trial. No credit card required.</p>
+      </div>
+
+      <div class="card__container">
+        <div class="card--func">
+          <h2 class="page-views">100K Pageviews</h2>
+          <label class="price" for="range">$16.00</label>
+        </div>
+        <div class="range">
+          <input type="range" id="range" min="0" max="100" value="50" />
+        </div>
+        <div class="card--option">
+          <p>Monthly Billing</p>
+          <button class="btn-toggle"></button>
+          <p>Yearly Billing</p>
+          <span>25% discount</span>
+        </div>
+
+        <div class="card--footer">
+          <div class="footer-r">
+            <ul>
+              <li>
+                <img src="images/icon-check.svg" alt="icon-check" />Unlimited
+                websites
+              </li>
+              <li>
+                <img src="images/icon-check.svg" alt="icon-check" />100% data
+                ownership
+              </li>
+              <li>
+                <img src="images/icon-check.svg" alt="icon-check" />Email
+                reports
+              </li>
+            </ul>
+          </div>
+          <div class="footer-l">
+            <a href="#">Start my trial</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
